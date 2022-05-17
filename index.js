@@ -28,5 +28,5 @@ app.use(customErrorHandler);
 app.use(express.static(path.join(__dirname, "public")));
 
 app.listen(PORT, ()=>{
-    console.log(`Server running on localhost:${PORT}..`)
+    console.log(`Server is running on localhost:${PORT}..`)
 });
