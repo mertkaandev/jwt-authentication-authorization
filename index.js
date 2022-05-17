@@ -28,5 +28,5 @@ app.use(customErrorHandler);
 app.use(express.static(path.join(__dirname, "public")));
 
 app.listen(PORT, ()=>{
-    console.log(`Sunucu localhost:${PORT}'da ayağa kalktı.`)
+    console.log(`Server running on localhost:${PORT}..`)
 });
